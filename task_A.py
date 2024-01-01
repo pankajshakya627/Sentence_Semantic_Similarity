@@ -67,7 +67,8 @@ try:
     logging.info(f"Null values in DataFrame: {df.isna().sum()}")
 
     # Load SentenceTransformer model
-    model_path = 'sts_model'  # load the model from local directory 
+    # model_path = 'sts_model'  # load the model from local directory 
+    model_path = 'sentence-transformers/all-MiniLM-L6-v2'
     model = SentenceTransformer(model_name_or_path=model_path)
 
     batch_size = 64
