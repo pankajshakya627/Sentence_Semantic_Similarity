@@ -7,4 +7,4 @@ This project encompasses the development and deployment of a text similarity alg
 The model is developed in Python, utilizing the powerful sentence-transformers library. It is capable of converting text into embeddings and uses cosine similarity to evaluate the degree of similarity between texts.
 
 #### Part B: Deployment on GCP
-eployment of the model as a server API on GCP using Flask
+Deployment of the model as a server API on GCP using Flask
